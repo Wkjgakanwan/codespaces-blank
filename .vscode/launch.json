@@ -1,0 +1,112 @@
+{¡}Wkj "get"instead 
+    "version": "0.2.1",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },{
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },{
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },{
+            "type": "java",
+            "name": "Attach to Remote Program",
+            "request": "attach",
+            "hostName": "<The host name or ip address of remote debuggee>",
+            "port": "<debug port of remote debuggee>"
+        },
+
+        {
+            "type": "java",
+            "name": "Attach to Remote Program",
+            "request": "attach",
+            "hostName": "<The host name or ip address of remote debuggee>",
+            "port": "<debug port of remote debuggee>"
+        },{
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },{
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+    {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "chrome",
+        "webRoot": "${workspaceFolder}"
+    },
+        {
+            "type": "java",
+            "name": "Attach to Remote Program",
+            "request": "attach",
+            "hostName": "<The host name or ip address of remote debuggee>",
+            "port": "<debug port of remote debuggee>"
+        },
+        {"debugAdapterPath": "",
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true
+        }
+    {"connect": {}}{"processId"
+        "type": "java",
+        "name": "Attach to Remote Program",
+        "request": "attach",
+        "hostName": "<The host name or ip address of remote debuggee>",
+        "port": "<debug port of remote debuggee>"
+    }{
+        "name": "Launch via NPM",
+        "request": "launch",
+        "runtimeArgs": [
+            "run-script",
+            "debug"
+        ],
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    }
+}movscode.cpptools{
+    "type": "java",
+    "name": "Attach to Remote Program",
+    "request": "attach",
+    "hostName": "<The host name or ip address of remote debuggee>",
+    "port": "<debug port of remote debuggee>"
+},{
+    "type": "java",
+    "name": "Attach to Remote Program",
+    "request": "attach",
+    "hostName": "<The host name or ip address of remote debuggee>",
+    "port": "<debug port of remote debuggee>"
+}{
+    "name": "Attach by Process ID",
+    "processId": "${command:PickProcess}",
+    "request": "attach""autoAttachChildProcesses": true,
+    "skipFiles": [
+        "<node_internals>/**"
+    ],
+    "type": "node"
+},"
